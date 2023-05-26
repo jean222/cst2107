@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 // Function 1
 // function App() {
 //   return(
@@ -15,7 +16,11 @@ const App = () => {
     <div>
       <Header />
       <Banner />
+      <Footer />
+      {/* You have to create a footer component and add it here */}
+      {/* Your footer component should have social media links, some quick actions like terms and conditions */}
     </div>
+
   )
 }
 
