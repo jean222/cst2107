@@ -1,0 +1,28 @@
+/* hERE i AM DIRECTLY  */
+/* header {
+    background: blue;
+} */
+
+.header-container {
+    background-color: rgb(191, 223, 205);
+}
+
+.nav-container {
+    margin:0;
+    list-style-type: none; /* removes the dots n <li></li>*/
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-item:hover {
+    background-color: rgb(36, 70, 46);
+    cursor: pointer;
+}
