@@ -17,6 +17,8 @@ const App = () => {
   return (
     <div>
       <Header />
+      {/* <Banner /> */}
+      {/*  */}
     </div>
   )
   

@@ -8,16 +8,16 @@ const Header = () => {
        // write Symantic HTML !!
        <header className='header-container'>
         <nav>
-            <ul>
-                <li>
+            <ul className='nav-container'>
+                <li className=''>
                     Home
                 </li>
 
-                <li>
+                <li className=''>
                     About
                 </li>
 
-                <li>
+                <li >
                     Services
                 </li>
 
