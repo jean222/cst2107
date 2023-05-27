@@ -1,0 +1,30 @@
+/* Herre we are directly targeting a html ELEMENT */
+
+/* header {
+    background-color: blue;
+} */
+
+
+.header-container{
+    background: blueviolet;
+}
+
+.nav-container {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-item-hover {
+    background-color: maroon;
+    cursor: pointer;
+}
