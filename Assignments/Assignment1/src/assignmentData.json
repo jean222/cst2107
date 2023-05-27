@@ -1,0 +1,86 @@
+[
+    {
+        "page": 2,
+        "per_page": 6,
+        "total": 12,
+        "total_pages": 2,
+        "data": [
+            {
+                "id": 7,
+                "email": "david.degea@reqres.in",
+                "first_name": "David",
+                "last_name": "De Gea",
+                "position": "Goalkeeper",
+                "number": 1,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51940.png"
+            },
+            {
+                "id": 8,
+                "email": "tom.heaton@reqres.in",
+                "first_name": "tom",
+                "last_name": "Heaton",
+                "position": "Goalkeeper",
+                "number": 22,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png"
+            },
+            {
+                "id": 9,
+                "email": "victor.lindelof@reqres.in",
+                "first_name": "Victor",
+                "last_name": "Lindelof",
+                "position": "Defender",
+                "number": 2,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184667.png"
+            },
+            {
+                "id": 10,
+                "email": "eric.bailly@reqres.in",
+                "first_name": "Eric",
+                "last_name": "Bailly",
+                "position": "Defender",
+                "number": 3,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p197365.png"
+            },
+            {
+                "id": 11,
+                "email": "bruno.fernandes@reqres.in",
+                "first_name": "Bruno",
+                "last_name": "Fernandes",
+                "position": "Midfielder",
+                "number": 28,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png"
+            },
+            {
+                "id": 12,
+                "email": "christian.eriksen@reqres.in",
+                "first_name": "Christian",
+                "last_name": "Eriksen",
+                "position": "Midfielder",
+                "number": 14,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p80607.png"
+            },
+            {
+                "id": 13,
+                "email": "anthony.martial@reqres.in",
+                "first_name": "Anthony",
+                "last_name": "Martial",
+                "position": "Forward",
+                "number": 9,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p148225.png"
+            },
+            {
+                "id": 14,
+                "email": "markus.rashford@reqres.in",
+                "first_name": "Markus",
+                "last_name": "Rashford",
+                "position": "Forward",
+                "number": 10,
+                "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png"
+            }
+        ],
+        "support": {
+            "url": "https://reqres.in/#support-heading",
+            "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+        }
+    }
+]
