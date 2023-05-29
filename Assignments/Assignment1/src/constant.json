@@ -1,7 +1,7 @@
 [
     {
         "id": 7,
-        "email": "david.degea@reqres.in",
+        "email": "david.degea@mufc.in",
         "first_name": "David",
         "last_name": "De Gea",
         "position": "Goalkeeper",
@@ -10,7 +10,7 @@
     },
     {
         "id": 8,
-        "email": "tom.heaton@reqres.in",
+        "email": "tom.heaton@rmufc.in",
         "first_name": "Tom",
         "last_name": "Heaton",
         "position": "Goalkeeper",
@@ -19,7 +19,7 @@
     },
     {
         "id": 9,
-        "email": "dean.henderson@reqres.in",
+        "email": "dean.henderson@mufc.in",
         "first_name": "Dean",
         "last_name": "Henderson",
         "position": "Goalkeeper",
@@ -28,7 +28,7 @@
     },
     {
         "id": 10,
-        "email": "jack.butland@reqres.in",
+        "email": "jack.butland@mufc.in",
         "first_name": "Jack",
         "last_name": "Butland",
         "position": "Goalkeeper",
@@ -37,7 +37,7 @@
     },
     {
         "id": 11,
-        "email": "victor.lindelof@reqres.in",
+        "email": "victor.lindelof@mufc.in",
         "first_name": "Victor",
         "last_name": "Lindelof",
         "position": "Defender",
@@ -46,7 +46,7 @@
     },
     {
         "id": 12,
-        "email": "eric.bailly@reqres.in",
+        "email": "eric.bailly@mufc.in",
         "first_name": "Eric",
         "last_name": "Bailly",
         "position": "Defender",
@@ -55,7 +55,7 @@
     },
     {
         "id": 13,
-        "email": "phil.jones@reqres.in",
+        "email": "phil.jones@mufc.in",
         "first_name": "Phil",
         "last_name": "Jones",
         "position": "Defender",
@@ -64,7 +64,7 @@
     },
     {
         "id": 14,
-        "email": "harry.maguire@reqres.in",
+        "email": "harry.maguire@mufc.in",
         "first_name": "Harry",
         "last_name": "Maguire",
         "position": "Defender",
@@ -73,7 +73,7 @@
     },
     {
         "id": 15,
-        "email": "lisandro.martinez@reqres.in",
+        "email": "lis.martinez@mufc.in",
         "first_name": "Lisandro",
         "last_name": "Martinez",
         "position": "Defender",
@@ -82,7 +82,7 @@
     },
     {
         "id": 16,
-        "email": "tyrell.malacia@reqres.in",
+        "email": "tyrell.malacia@mufc.in",
         "first_name": "Tyrell",
         "last_name": "Malacia",
         "position": "Defender",
@@ -91,7 +91,7 @@
     },
     {
         "id": 17,
-        "email": "raphael.varane@reqres.in",
+        "email": "raphael.varane@mufc.in",
         "first_name": "Raphael",
         "last_name": "Varane",
         "position": "Defender",
@@ -100,7 +100,7 @@
     },
     {
         "id": 18,
-        "email": "diogo.dalot@reqres.in",
+        "email": "diogo.dalot@mufc.in",
         "first_name": "Diogo",
         "last_name": "Dalot",
         "position": "Defender",
@@ -109,7 +109,7 @@
     },
     {
         "id": 19,
-        "email": "luke.shaw@reqres.in",
+        "email": "luke.shaw@mufc.in",
         "first_name": "Luke",
         "last_name": "Shaw",
         "position": "Defender",
@@ -118,7 +118,7 @@
     },
     {
         "id": 20,
-        "email": "alex.telles@reqres.in",
+        "email": "alex.telles@mufc.in",
         "first_name": "Alex",
         "last_name": "Telles",
         "position": "Defender",
@@ -127,7 +127,7 @@
     },
     {
         "id": 21,
-        "email": "aaron.wanbissaka@reqres.in",
+        "email": "wanbissaka@mufc.in",
         "first_name": "Aaron",
         "last_name": "Wan-Bissaka",
         "position": "Defender",
@@ -136,7 +136,7 @@
     },
     {
         "id": 22,
-        "email": "brandon.williams@reqres.in",
+        "email": "bran.williams@mufc.in",
         "first_name": "Brandon",
         "last_name": "Williams",
         "position": "Defender",
@@ -145,7 +145,7 @@
     },
     {
         "id": 23,
-        "email": "axel.tuanzebe@reqres.in",
+        "email": "axel.tuanzebe@mufc.in",
         "first_name": "Axel",
         "last_name": "Tuanzebe",
         "position": "Defender",
@@ -154,7 +154,7 @@
     },
     {
         "id": 24,
-        "email": "teden.mengi@reqres.in",
+        "email": "teden.mengi@mufc.in",
         "first_name": "Teden",
         "last_name": "Mengi",
         "position": "Defender",
@@ -163,7 +163,7 @@
     },
     {
         "id": 25,
-        "email": "alvaro.fernandez@reqres.in",
+        "email": "alv.fernandez@mufc.in",
         "first_name": "Alvaro",
         "last_name": "Fernandez",
         "position": "Defender",
@@ -175,7 +175,7 @@
 
     {
         "id": 26,
-        "email": "bruno.fernandes@reqres.in",
+        "email": "brun.fernandes@mufc.in",
         "first_name": "Bruno",
         "last_name": "Fernandes",
         "position": "Midfielder",
@@ -184,7 +184,7 @@
     },
     {
         "id": 27,
-        "email": "christian.eriksen@reqres.in",
+        "email": "chris.eriksen@mufc.in",
         "first_name": "Christian",
         "last_name": "Eriksen",
         "position": "Midfielder",
@@ -193,7 +193,7 @@
     },
     {
         "id": 28,
-        "email": "marcel.sabitzer@reqres.in",
+        "email": "marcel.sabitzer@mufc.in",
         "first_name": "Marcel",
         "last_name": "Sabitzer",
         "position": "Midfielder",
@@ -202,7 +202,7 @@
     },
     {
         "id": 29,
-        "email": "amad@reqres.in",
+        "email": "amad@mufc.in",
         "first_name": "Amad",
         "last_name": "",
         "position": "Midfielder",
@@ -211,7 +211,7 @@
     },
     {
         "id": 30,
-        "email": "fred@reqres.in",
+        "email": "fred@mufc.in",
         "first_name": "Fred",
         "last_name": "",
         "position": "Midfielder",
@@ -220,7 +220,7 @@
     },
     {
         "id": 31,
-        "email": "casemiro@reqres.in",
+        "email": "casemiro@mufc.in",
         "first_name": "Casemiro",
         "last_name": "",
         "position": "Midfielder",
@@ -229,7 +229,7 @@
     },
     {
         "id": 33,
-        "email": "facundo.pellistri@reqres.in",
+        "email": "facundo.pellistri@mufc.in",
         "first_name": "Facundo",
         "last_name": "Pellistri",
         "position": "Midfielder",
@@ -238,7 +238,7 @@
     },
     {
         "id": 34,
-        "email": "donny.vandebeek@reqres.in",
+        "email": "don.vandebeek@mufc.in",
         "first_name": "Donny",
         "last_name": "van de Beek",
         "position": "Midfielder",
@@ -247,7 +247,7 @@
     },
     {
         "id": 35,
-        "email": "scott.mctominay@reqres.in",
+        "email": "mctominay@mufc.in",
         "first_name": "Scott",
         "last_name": "McTominay",
         "position": "Midfielder",
@@ -256,7 +256,7 @@
     },
     {
         "id": 36,
-        "email": "hannibal@reqres.in",
+        "email": "hannibal@mufc.in",
         "first_name": "Hannibal",
         "last_name": "",
         "position": "Midfielder",
@@ -265,7 +265,7 @@
     },
     {
         "id": 37,
-        "email": "zidane.iqbal@reqres.in",
+        "email": "zidane.iqbal@mufc.in",
         "first_name": "Zidane",
         "last_name": "Iqbal",
         "position": "Midfielder",
@@ -274,7 +274,7 @@
     },
     {
         "id": 38,
-        "email": "kobbie.mainoo@reqres.in",
+        "email": "kobbie.mainoo@mufc.in",
         "first_name": "Kobbie",
         "last_name": "Mainoo",
         "position": "Midfielder",
@@ -287,7 +287,7 @@
 
     {
         "id": 39,
-        "email": "anthony.martial@reqres.in",
+        "email": "anthony.martial@mufc.in",
         "first_name": "Anthony",
         "last_name": "Martial",
         "position": "Forward",
@@ -296,7 +296,7 @@
     },
     {
         "id": 40,
-        "email": "markus.rashford@reqres.in",
+        "email": "mark.rashford@mufc.in",
         "first_name": "Markus",
         "last_name": "Rashford",
         "position": "Forward",
@@ -305,7 +305,7 @@
     },
     {
         "id": 41,
-        "email": "@mason.greenwood@reqres.in",
+        "email": "greenwood@mufc.in",
         "first_name": "Mason",
         "last_name": "Greenwood",
         "position": "Forward",
@@ -314,7 +314,7 @@
     },
     {
         "id": 42,
-        "email": "antony@reqres.in",
+        "email": "antony@mufc.in",
         "first_name": "Antony",
         "last_name": "",
         "position": "Forward",
@@ -323,7 +323,7 @@
     },
     {
         "id": 43,
-        "email": "jadon.sancho@reqres.in",
+        "email": "jadon.sancho@mufc.in",
         "first_name": "Jadon",
         "last_name": "Sancho",
         "position": "Forward",
@@ -332,7 +332,7 @@
     },
     {
         "id": 44,
-        "email": "wout.weghorst@reqres.in",
+        "email": "wout.weghorst@mufc.in",
         "first_name": "Wout",
         "last_name": "Weghorst",
         "position": "Forward",
@@ -341,7 +341,7 @@
     },
     {
         "id": 45,
-        "email": "anthony.elanga@reqres.in",
+        "email": "anthony.elanga@mufc.in",
         "first_name": "Anthony",
         "last_name": "Elanga",
         "position": "Forward",
@@ -350,7 +350,7 @@
     },
     {
         "id": 46,
-        "email": "shola.shoretire@reqres.in",
+        "email": "shola.shoretire@mufc.in",
         "first_name": "Shola",
         "last_name": "Shoretire",
         "position": "Forward",
@@ -359,7 +359,7 @@
     },
     {
         "id": 47,
-        "email": "alejandro.garnacho@reqres.in",
+        "email": "alej.garnacho@mufc.in",
         "first_name": "Alejandro",
         "last_name": "Garnacho",
         "position": "Forward",

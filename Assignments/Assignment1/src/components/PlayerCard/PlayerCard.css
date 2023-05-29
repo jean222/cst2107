@@ -1,29 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Archivo+Black&family=Bebas+Neue&family=Fjalla+One&family=Inter:wght@100&family=Lora:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@300&family=Playfair:wght@400;600&display=swap');
+
+/* this the glass container thingy */
 .playercard-container {
-    background-color: rgb(80, 134, 134);
-    border-radius: 20px;
-    box-shadow: rgb(0,0,0,0.1) 0px 4px 12px;
-    
-    
-}
-
-.playercard-body{
-    padding: 20px;
-    display: block;
-    text-align: left;
-    gap: 8px;
-    color:black;
-}
-
-.card {
     width: 250px;
     min-height: 250px;
-    background: rgba(255, 255, 255, 0.065);
+    background: rgba(0, 0, 0, 0.065);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 18px );
     -webkit-backdrop-filter: blur( 10px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 1rem;
     padding: 1px;
     z-index: 10;
     color: whitesmoke;
-  }
+    position: relative;
+    padding: 20px;
+  
+}
+.playercard-container:hover{
+    box-shadow: inset 0px 0px 20px 10px #888888 ;
+    background: rgba(255, 255, 255, 0.065);
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 7px );
+
+}
+
+.playercard-body{
+    font-family: 'Antonio', sans-serif;
+    display: block;
+    text-align: left;
+    gap: 8px;
+}
+
+.player-position-number{
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 19px;
+}
+
+.player-name{
+    font-size: 30px;
+}
+
+.player-email{
+    padding-top: 10px;
+    font-size: small;
+}
