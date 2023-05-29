@@ -1,0 +1,369 @@
+[
+    {
+        "id": 7,
+        "email": "david.degea@reqres.in",
+        "first_name": "David",
+        "last_name": "De Gea",
+        "position": "Goalkeeper",
+        "number": 1,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51940.png"
+    },
+    {
+        "id": 8,
+        "email": "tom.heaton@reqres.in",
+        "first_name": "Tom",
+        "last_name": "Heaton",
+        "position": "Goalkeeper",
+        "number": 22,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png"
+    },
+    {
+        "id": 9,
+        "email": "dean.henderson@reqres.in",
+        "first_name": "Dean",
+        "last_name": "Henderson",
+        "position": "Goalkeeper",
+        "number": 26,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172649.png"
+    },
+    {
+        "id": 10,
+        "email": "jack.butland@reqres.in",
+        "first_name": "Jack",
+        "last_name": "Butland",
+        "position": "Goalkeeper",
+        "number": 31,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p105666.png"
+    },
+    {
+        "id": 11,
+        "email": "victor.lindelof@reqres.in",
+        "first_name": "Victor",
+        "last_name": "Lindelof",
+        "position": "Defender",
+        "number": 2,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184667.png"
+    },
+    {
+        "id": 12,
+        "email": "eric.bailly@reqres.in",
+        "first_name": "Eric",
+        "last_name": "Bailly",
+        "position": "Defender",
+        "number": 3,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p197365.png"
+    },
+    {
+        "id": 13,
+        "email": "phil.jones@reqres.in",
+        "first_name": "Phil",
+        "last_name": "Jones",
+        "position": "Defender",
+        "number": 4,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p76359.png"
+    },
+    {
+        "id": 14,
+        "email": "harry.maguire@reqres.in",
+        "first_name": "Harry",
+        "last_name": "Maguire",
+        "position": "Defender",
+        "number": 5,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png"
+    },
+    {
+        "id": 15,
+        "email": "lisandro.martinez@reqres.in",
+        "first_name": "Lisandro",
+        "last_name": "Martinez",
+        "position": "Defender",
+        "number": 6,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221820.png"
+    },
+    {
+        "id": 16,
+        "email": "tyrell.malacia@reqres.in",
+        "first_name": "Tyrell",
+        "last_name": "Malacia",
+        "position": "Defender",
+        "number": 12,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p222690.png"
+    },
+    {
+        "id": 17,
+        "email": "raphael.varane@reqres.in",
+        "first_name": "Raphael",
+        "last_name": "Varane",
+        "position": "Defender",
+        "number": 19,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p90152.png"
+    },
+    {
+        "id": 18,
+        "email": "diogo.dalot@reqres.in",
+        "first_name": "Diogo",
+        "last_name": "Dalot",
+        "position": "Defender",
+        "number": 20,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216051.png"
+    },
+    {
+        "id": 19,
+        "email": "luke.shaw@reqres.in",
+        "first_name": "Luke",
+        "last_name": "Shaw",
+        "position": "Defender",
+        "number": 23,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png"
+    },
+    {
+        "id": 20,
+        "email": "alex.telles@reqres.in",
+        "first_name": "Alex",
+        "last_name": "Telles",
+        "position": "Defender",
+        "number": 27,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152590.png"
+    },
+    {
+        "id": 21,
+        "email": "aaron.wanbissaka@reqres.in",
+        "first_name": "Aaron",
+        "last_name": "Wan-Bissaka",
+        "position": "Defender",
+        "number": 29,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p214590.png"
+    },
+    {
+        "id": 22,
+        "email": "brandon.williams@reqres.in",
+        "first_name": "Brandon",
+        "last_name": "Williams",
+        "position": "Defender",
+        "number": 33,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232937.png"
+    },
+    {
+        "id": 23,
+        "email": "axel.tuanzebe@reqres.in",
+        "first_name": "Axel",
+        "last_name": "Tuanzebe",
+        "position": "Defender",
+        "number": 38,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180804.png"
+    },
+    {
+        "id": 24,
+        "email": "teden.mengi@reqres.in",
+        "first_name": "Teden",
+        "last_name": "Mengi",
+        "position": "Defender",
+        "number": 43,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244856.png"
+    },
+    {
+        "id": 25,
+        "email": "alvaro.fernandez@reqres.in",
+        "first_name": "Alvaro",
+        "last_name": "Fernandez",
+        "position": "Defender",
+        "number": 74,
+        "avatar": "https://www.pnefc.net/api/image/cropandgreyscale/a092b6dc-5db1-4832-83ed-3501e159e9a6/?preset=player&greyscale=false"
+    },
+
+
+
+    {
+        "id": 26,
+        "email": "bruno.fernandes@reqres.in",
+        "first_name": "Bruno",
+        "last_name": "Fernandes",
+        "position": "Midfielder",
+        "number": 28,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png"
+    },
+    {
+        "id": 27,
+        "email": "christian.eriksen@reqres.in",
+        "first_name": "Christian",
+        "last_name": "Eriksen",
+        "position": "Midfielder",
+        "number": 14,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p80607.png"
+    },
+    {
+        "id": 28,
+        "email": "marcel.sabitzer@reqres.in",
+        "first_name": "Marcel",
+        "last_name": "Sabitzer",
+        "position": "Midfielder",
+        "number": 15,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p101338.png"
+    },
+    {
+        "id": 29,
+        "email": "amad@reqres.in",
+        "first_name": "Amad",
+        "last_name": "",
+        "position": "Midfielder",
+        "number": 16,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png"
+    },
+    {
+        "id": 30,
+        "email": "fred@reqres.in",
+        "first_name": "Fred",
+        "last_name": "",
+        "position": "Midfielder",
+        "number": 17,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p101582.png"
+    },
+    {
+        "id": 31,
+        "email": "casemiro@reqres.in",
+        "first_name": "Casemiro",
+        "last_name": "",
+        "position": "Midfielder",
+        "number": 18,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p61256.png"
+    },
+    {
+        "id": 33,
+        "email": "facundo.pellistri@reqres.in",
+        "first_name": "Facundo",
+        "last_name": "Pellistri",
+        "position": "Midfielder",
+        "number": 28,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p488404.png"
+    },
+    {
+        "id": 34,
+        "email": "donny.vandebeek@reqres.in",
+        "first_name": "Donny",
+        "last_name": "van de Beek",
+        "position": "Midfielder",
+        "number": 34,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180184.png"
+    },
+    {
+        "id": 35,
+        "email": "scott.mctominay@reqres.in",
+        "first_name": "Scott",
+        "last_name": "McTominay",
+        "position": "Midfielder",
+        "number": 39,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p195851.png"
+    },
+    {
+        "id": 36,
+        "email": "hannibal@reqres.in",
+        "first_name": "Hannibal",
+        "last_name": "",
+        "position": "Midfielder",
+        "number": 46,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465527.png"
+    },
+    {
+        "id": 37,
+        "email": "zidane.iqbal@reqres.in",
+        "first_name": "Zidane",
+        "last_name": "Iqbal",
+        "position": "Midfielder",
+        "number": 55,
+        "avatar": "https://cdn-headshots.theathletic.com/soccer/xRbw21lUmo6Y41sg_400x400.png"
+    },
+    {
+        "id": 38,
+        "email": "kobbie.mainoo@reqres.in",
+        "first_name": "Kobbie",
+        "last_name": "Mainoo",
+        "position": "Midfielder",
+        "number": 73,
+        "avatar": "https://cdn-headshots.theathletic.com/soccer/PXY0NodHcotVNBKx_400x400.png"
+    },
+
+
+
+
+    {
+        "id": 39,
+        "email": "anthony.martial@reqres.in",
+        "first_name": "Anthony",
+        "last_name": "Martial",
+        "position": "Forward",
+        "number": 9,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p148225.png"
+    },
+    {
+        "id": 40,
+        "email": "markus.rashford@reqres.in",
+        "first_name": "Markus",
+        "last_name": "Rashford",
+        "position": "Forward",
+        "number": 10,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png"
+    },
+    {
+        "id": 41,
+        "email": "@mason.greenwood@reqres.in",
+        "first_name": "Mason",
+        "last_name": "Greenwood",
+        "position": "Forward",
+        "number": 11,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220688.png"
+    },
+    {
+        "id": 42,
+        "email": "antony@reqres.in",
+        "first_name": "Antony",
+        "last_name": "",
+        "position": "Forward",
+        "number": 21,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p467169.png"
+    },
+    {
+        "id": 43,
+        "email": "jadon.sancho@reqres.in",
+        "first_name": "Jadon",
+        "last_name": "Sancho",
+        "position": "Forward",
+        "number": 25,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209243.png"
+    },
+    {
+        "id": 44,
+        "email": "wout.weghorst@reqres.in",
+        "first_name": "Wout",
+        "last_name": "Weghorst",
+        "position": "Forward",
+        "number": 27,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p120202.png"
+    },
+    {
+        "id": 45,
+        "email": "anthony.elanga@reqres.in",
+        "first_name": "Anthony",
+        "last_name": "Elanga",
+        "position": "Forward",
+        "number": 36,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p449434.png"
+    },
+    {
+        "id": 46,
+        "email": "shola.shoretire@reqres.in",
+        "first_name": "Shola",
+        "last_name": "Shoretire",
+        "position": "Forward",
+        "number": 47,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p472464.png"
+    },
+    {
+        "id": 47,
+        "email": "alejandro.garnacho@reqres.in",
+        "first_name": "Alejandro",
+        "last_name": "Garnacho",
+        "position": "Forward",
+        "number": 49,
+        "avatar": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493105.png"
+    }
+]

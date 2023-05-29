@@ -1,0 +1,8 @@
+.playerinfo-container{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
