@@ -1,18 +1,18 @@
-import { useEffect, useRef,useState } from 'react';
-import styles from './UncontrolledForm.module.css';
+import { useEffect, useRef, useState} from 'react';
+import styles from './UnControlledForm.module.css';
 
-export default function UncontrolledForm() {
+export default function UnControlledForm() {
 
-    const [userInfo, setUserInfo] = useState('');
-
-    //const [name, setName] = useState('');
-    //const [email, setEmail] = useState('');
-    //const [password, setPassword] = useState('');
+    const [userInfo, setUserInfo] = useState({});
+    const [isFormSubmitted, setFormSubmitted] = useState(false);
+ 
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [password, setPassword] = useState('');
     const nameRef = useRef(null);
     const emailRef = useRef(null);
     const passwordRef = useRef(null);
-
-    //const [userData, setUserDate] =useState({});
+    // const [userData, setUserData] = useState({});
 
     useEffect(() => {
         console.log("APPLICATION LOADING...");
@@ -21,44 +21,50 @@ export default function UncontrolledForm() {
         }
     }, [isFormSubmitted]);
 
+    useEffect(() => {
+        console.log("APPLICATION ascascasc...");
+
+    }, [])
+    
+
     const handleSubmitForm = (event) => {
-        event.preventDeafult();
+        event.preventDefault();
         setUserInfo({
             name: nameRef.current.value,
             email: emailRef.current.value,
-            password: passwordRef.current.value,
+            password: passwordRef.current.value
         })
+
+        setFormSubmitted((prevState) => !prevState);
     }
 
-  return (
-    <>
-    <form className={styles.formContainer} onSubmit={handleSubmitForm}>
-      <h1>SIGNUP FORM</h1>
-        <div className={styles.formControl}>
-            <label htmlFor="name">Name</label>
-            {/* <input onChange={(event) => setName(event.target.value)} value={name} type="text" placeholder="Enter Name"></input> */}
-            <input onChange={(event) => setUserData({...userData, name: event.target.value})} value={userData.name} required type='text' placeholder="Enter Name"></input>
-        </div>
+    return (
+        <>
+        <form className={styles.formContainer} onSubmit={handleSubmitForm}>
+            <h1>SIGNUP FORM!</h1>
+            <div className={styles.formControl}>
+                <label htmlFor="name">Name</label>
+                <input ref={nameRef} required type="text" placeholder="Enter Name" />
+            </div>
 
-        <div className={styles.formControl}>
-            <label htmlFor="name">Email</label>
-            <input onChange={(event) => setUserData ({...userData, email: event.target.value})} required type="email" placeholder="Enter Email"></input>
-        </div>
+            <div className={styles.formControl}>
+                <label htmlFor="email">Email</label>
+                <input ref={emailRef}  required type="email" placeholder="Enter Email" />
+            </div>
 
-        <div className={styles.formControl}>
-            <label htmlFor="name">Password</label>
-            {/* <input onChange={(event) => setPassword(event.target.value)} value={password} required type='password' placeholder="Enter Password"></input> */}
-            <input onChange={(event) => setUserData ({...userData, email: event.target.value})} required type='password' placeholder="Enter Password"></input>
-        </div>
+            <div className={styles.formControl}>
+                <label htmlFor="email">Password</label>
+                <input ref={passwordRef} placeholder="Enter Password" />
+            </div>
 
-        <button className={styles.button}>Submit</button>
+            <button className={styles.button}>Submit</button>
+        </form>
 
-
-    </form>
-
-    <p>
-      
-    </p>
-    </> 
-  )
+        <p>
+            Name: {userInfo.name}
+            Email: {userInfo.email}
+            Password: {userInfo.password}
+        </p>
+        </>
+    )
 }

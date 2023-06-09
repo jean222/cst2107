@@ -1,0 +1,25 @@
+Controlled Forms
+    Controlled Forms in React are from components whose state determines the values of the form inputs. As a result,the component's stae maintains a record of the input values, and any changes ti the inputs are handled by changing the state of the component. React may now be the <b>only source truth</b> for the form data thanks to this strategy. So, in short, we depend on state instead of the dom value.
+
+    We take the information of the user and save it in the state.
+
+    When we say "source of truth" we're referring to the kind of way we save state. How you can save data for the whole application.
+
+Uncontrolled Forms
+    Uncontrolled Forms in React are form of elements where the state values of the form inputs are not controlled by React state. Instead, the form inputs internally control their own state. You normally rely on the DOM in uncontrolled forms to manage the form input values and access them as necessary, such as when the form is submitted. Form inputs are not connected to React state, but you can still attach even handlers for operations like validation or carrying out particular actions in response to user interaction.
+
+React Fragments
+    With the help of React's fragments functionality, you may group several items without adding an extra wrapping element to the DOM. When a component's render method needs to return numerous items but you dont want to add an additional parent element, fragments can come in handy.
+
+UseRef 
+    It goes to the dom and accesses its values
+
+UseEffect
+    The UseEffect hook in React is utilised to implement side effects in functional components. The DOM can be modified, event listeners can be subscribed to , data can be fetched from an API, among other things, as side effects using the useEffect hook
+     
+    Note" Majority of the times you will use useEffect, when you want to call an API, call a function if something is updates,or unsubscribed to any event.
+
+Condotional Rendering
+    Is when you want to show something of th eui based on a condition.
+
+    This feature enables you to display various contents or components according to specific situations or state variables. You can use it dynamically control what is shown in theuser interface.
