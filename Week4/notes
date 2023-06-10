@@ -20,6 +20,6 @@ UseEffect
     Note" Majority of the times you will use useEffect, when you want to call an API, call a function if something is updates,or unsubscribed to any event.
 
 Condotional Rendering
-    Is when you want to show something of th eui based on a condition.
+    Is when you want to show something of th ui based on a condition.
 
     This feature enables you to display various contents or components according to specific situations or state variables. You can use it dynamically control what is shown in theuser interface.

@@ -1,28 +1,39 @@
 import React from 'react'
-import styles from '.EmployeeForm.css'
+imp
+import styles from './EmployeeForm.module.css'
 
 export default function EmployeeForm() {
+    
+    const [employeeInfo, setEmployeeInfo] = useState({});
+
   return (
-    <form>
-        <div className={styles.formContainer}>
-            <label htmlFor='name'></label>
-            <input type='text' placeholder='Enter Employee Name' />
+    <form className={styles.form}>
+        <h3>ENTER EMPLOYEE INFO</h3>
+        <div className={styles.formControl}>
+            <label htmlFor='name'>Name</label>
+            <input value={employeeInfo.name} onChange={(event) => setEmployeeInfo} type='text' placeholder='Enter Employee Name'></input>
         </div>
 
-        <div className={styles.formContainer}>
-            <label htmlFor='email'></label>
-            <input type='email' placeholder='Enter Employee Name' />
+        <div className={styles.formControl}>
+            <label htmlFor='email'>Email</label>
+            <input type='email' placeholder='Enter Employee Email'></input>
         </div>
 
-        <div className={styles.formContainer}>
-            <label htmlFor='date'></label>
-            <input type='date' placeholder='Enter Joining Date' />
+        <div className={styles.formControl}>
+            <label htmlFor='date'>Date</label>
+            <input type='date' placeholder='Enter Joining Date'></input>
         </div>
 
-        <div className={styles.formContainer}>
-            <label htmlFor='experience'></label>
+        <div className={styles.formControl}>
+            <label htmlFor='experience'>Has Experience</label>
+            <select name='experience' id=''>
+                <option value='true'>Yes</option>
+                <option value='false'>No</option>
+            </select>
             
         </div>
+
+        <button className={styles.button}>Submit</button>
     </form>
   )
 }
