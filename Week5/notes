@@ -1,2 +1,23 @@
 React Router
-     
+     React router dom provides you with a hook 
+
+useRoutes
+    It is a regular function provided by this library => " import { useRoutes } from 'react-router-dom' "
+    This function takes a parameter as an array of objects, where I provide the path where I want to go to, and what component should be loaded on that page.
+
+    let element = useRoutes ([
+        {
+            path: '/',
+            element: <HomePage />       // This will take you to the homepage
+        },
+        {
+            path: '/',
+            element: <CryptoDetailsPage />      // this will take you to the crypto details page
+        },
+        {
+            path: '/',
+            element: <NotFoundPage />       // This will take you to the not found page
+        }
+    ])
+
+    return element;
