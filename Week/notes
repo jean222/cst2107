@@ -1,0 +1,6 @@
+Class Components
+    a type of component in React. Class-based components were the primary way of creating reusable UI elements in React
+
+
+States in Class bases
+    In class-based components, you can manage state using the state property. The state is an objecy that represents te interanl data od a component and can be updates over time. When the state changes, React automatically 

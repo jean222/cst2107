@@ -1,12 +1,26 @@
 import './App.css'
+import { useRoutes } from 'react-router-dom' 
+import CryptoDetailPage from './pages/CryptoDetailPage'
+import HomePage from './pages/HomePage'
 
 function App() {
 
-  return (
-    <div className='App'>
-      
-    </div>
-  )
+  let element = useRoutes ([
+    {
+      path: '/',
+      element: <HomePage />
+    },
+    {
+      path: '/crypto/:coin',
+      element: <CryptoDetailPage />
+    },
+    {
+      path: "*",
+      element: <HomePage />
+    }
+  ])
+
+  return element;
 }
 
 export default App
