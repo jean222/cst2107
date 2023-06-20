@@ -3,6 +3,7 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { Link } from 'react-router-dom';
 
+
 export default function CryptoTableComponent({ data }) {
   return (
     <TableContainer component = {Paper}>
