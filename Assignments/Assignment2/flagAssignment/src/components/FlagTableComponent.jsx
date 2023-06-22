@@ -17,13 +17,7 @@ const FlagTableComponent = ({ data }) => {
                 <TableBody>
                     {
                         data.map((flagCountry) => {
-                            return <TableRow>
-                                <TableCell>
-                                    <Box >
-                                    <img width={40} src={flagCountry.name.common} />
-                                    </Box>
-                                </TableCell>
-                            </TableRow>
+                            return <div>{flagCountry.name.common}</div>
                         }) 
                     }
                 </TableBody>
