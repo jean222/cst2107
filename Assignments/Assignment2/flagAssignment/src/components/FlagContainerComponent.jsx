@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import FlagTableComponent from './FlagTableComponent';
 
+
 const FlagContainerComponent = () => {
     
     const [flagData, setFlagData] = useState([]);

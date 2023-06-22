@@ -20,7 +20,7 @@ const FlagTableComponent = ({ data }) => {
                             return <TableRow>
                                 <TableCell>
                                     <Box >
-                                    <img width={40} src={flagCountry.flags.png} />
+                                    <img width={40} src={flagCountry.name.common} />
                                     </Box>
                                 </TableCell>
                             </TableRow>
