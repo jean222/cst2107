@@ -1,0 +1,20 @@
+Context API
+    With the Context API, you can create an object at global that holds the shared state for a specific part of your component tree. This context object can then be accessed by any component within that tree, regardless of how deeply nested it is. So if a component wants to access data from sibling, we can do it using Context Object
+
+Why Context API?
+    It is useful in several scenarios where you need to share data or state across multiple components in your React application. 
+        1.) Avoiding Prop Drilling: this occurs when you need to pass data through multiple layers of components, even when someintermediate components don't need that data. This can make you code more complex and harder to maintain. The Context API allows you to provide a central store data that can be accessed by any component without the need for passing props through intermediate compnents.
+
+        2.) Global State Management: In some cases, you may hav sate that needs to be accessed by multiple components in different parts of your appplication. With the Context API, you can create a global state that is accessible by any component wuthin a specific context, eliminating the need for manually syncing and passing state between components.
+
+        3.) Themeing: If you have themeing system in your application, the Context API can be used to provide teh current theme to all the components that need it. THis allows t=you to easily switch and update the theme throughout your applicaiton by modifying the context value.
+
+        4.) Localization: if your application needs to support multiple languages, the Context API can be used to provide the currrent locale to all the componenst that require it. This way, you can update the language of your application by changing the context value.
+
+        5.) Authentication and User Data: When dealing with user authentication, you may need to access the current user's data or authentcation state from various components. THe conext API can provide a centralized location to store and share this information, allowing components to access it as needed.
+
+Provider Component
+    Is responsible for providing the data or state to all the components that are part of a particular context. It accepts a prop called "value" that represents the data or state that will be sg=hared. The Provider component wraps the tree of components that need access to this shared data.
+
+Consumer Component
+    Is used to access the shared data or state provided by the Provider component. It allows components to subscribe to the context and receive updates whenever the shared data changes. In Functional component, this is how we consume data.

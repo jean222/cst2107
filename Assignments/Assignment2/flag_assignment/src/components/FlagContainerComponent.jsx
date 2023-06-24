@@ -18,13 +18,15 @@ export default function FlagContainerComponent() {
 
 
   return (
+    
     <div>
         {
-            flagData.map((flagInfo, index) => {
-                return <div>{flagInfo.name.common} key={index}</div>
-            })
+            // flagData.map((flagInfo, i) => {
+            //     return< li key={i}>{flagInfo.flag} {flagInfo.name.common}</li>
+            // })
+        
 
-            //<FlagCardComponent data={flagData}/>
+            <FlagCardComponent data={flagData}/>
         }
     </div>
   )
