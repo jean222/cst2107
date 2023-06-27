@@ -67,7 +67,7 @@ export default function FlagCardComponent({ data }) {
         data.map((flagInfo, i) => {
           // return <Grid container spacing={{ xs: 2, md: 3 }} rowSpacing={1} columns={{ xs: 4, sm: 8, md: 12 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }}  key={i}>
               return <Box>
-              <h1>AAAAAAAAA</h1>
+              <h1>AAAAAAAAAz</h1>
               </Box>
             // </Grid>
         })
