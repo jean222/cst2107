@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 import HufflepuffContext from '../../context/HufflepuffContext'
-import ProfileList from '../../components/ProfileList'
+import HuffProfileList from '../../components/HufflepuffProfile/HuffProfileList';
 
 export default function Hufflepuff() {
+
+  
 
   useEffect(() => {
     getHufflepuffHouse();
@@ -16,8 +18,8 @@ export default function Hufflepuff() {
 
   return (
     // <div>Hufflepuff</div>
-    <HufflepuffContext.Provider>
-      <ProfileList />
+    <HufflepuffContext.Provider value={huff}>
+      <HuffProfileList />
     </HufflepuffContext.Provider>
   )
 }

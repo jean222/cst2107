@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import GryffindorContext from '../../context/GryffindorContext'
-import ProfileList from '../../components/GryffindorProfile/GryffProfileList'
+import GryffProfileList from '../../components/GryffindorProfile/GryffProfileList';
 
 export default function Gryffindor() {
 
@@ -21,7 +21,7 @@ export default function Gryffindor() {
   return (
     // <div>Gryffindor</div>
     <GryffindorContext.Provider value={gryffindorData}>
-      <ProfileList />
+      <GryffProfileList />
     </GryffindorContext.Provider>
   )
 }

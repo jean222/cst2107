@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import RavenclawContext from '../../context/RavenclawContext'
-import ProfileList from '../../components/ProfileList'
+import RavenProfileList from '../../components/RavenclawProfile/RavenProfileList';
 
 export default function Ravenclaw() {
 
@@ -17,7 +17,7 @@ export default function Ravenclaw() {
   return (
     // <div>Ravenclaw</div>
     <RavenclawContext.Provider>
-      <ProfileList />
+      <RavenProfileList />
     </RavenclawContext.Provider>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import SlytherinContext from '../../context/SlytherinContext'
-import ProfileList from '../../components/ProfileList'
+import SlythpProfileList from '../../components/SlytherinProifle/SlythpProfileList';
 
 export default function Slytherin() {
 
@@ -16,7 +16,7 @@ export default function Slytherin() {
   return (
     // <div>Slytherin</div>
     <SlytherinContext.Provider>
-      <ProfileList />
+      <SlythpProfileList />
     </SlytherinContext.Provider>
   )
 }

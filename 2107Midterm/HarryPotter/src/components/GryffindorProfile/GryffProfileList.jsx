@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import GryffindorContext from '../../context/GryffindorContext'
 import ProfileCard from './GryffProfileCard';
 import './style.css';
+import GryffProfileCard from './GryffProfileCard';
 
 export default function GryffProfileList() {
 
@@ -11,7 +12,7 @@ export default function GryffProfileList() {
   <div className='photo-container'>
     {
       profilesList.map((data, i) => {
-        return <ProfileCard key={i} data={data}/>
+        return <GryffProfileCard key={i} data={data}/>
       })
     }
     
