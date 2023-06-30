@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ysabeau+SC:wght@100&display=swap');
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-color: gray;
+    background-image: url('https://images.unsplash.com/photo-1618944913480-b67ee16d7b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+.button-group{
+    size: large;
+}
+
+header{
+    font-family: 'Harry Potter', sans-serif;                                     
+}
+
+.grp-btn{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+button{
+    font-size: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: transparent;
+    color: rgb(169, 161, 161);
+    /* border: 0; */
+}
+
+button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.25);
+}

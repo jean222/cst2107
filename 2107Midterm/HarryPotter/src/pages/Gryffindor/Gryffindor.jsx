@@ -13,13 +13,10 @@ export default function Gryffindor() {
   const getGryffindorHouse = async () => {
     const gryffHouseData = await fetch(`https://hp-api.onrender.com/api/characters/house/gryffindor`);
     const gryffHouseJSONData = await gryffHouseData.json();
-    //console.log(gryffHouseJSONData);
     setGryffindorData(gryffHouseJSONData);
-
   }
 
   return (
-    // <div>Gryffindor</div>
     <GryffindorContext.Provider value={gryffindorData}>
       <GryffProfileList />
     </GryffindorContext.Provider>

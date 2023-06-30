@@ -1,7 +1,8 @@
 import React from 'react'
 import Slytherin from '../Slytherin/Slytherin'
-import { ButtonGroup, Button } from '@mui/material';
+import { ButtonGroup, Button, Box, colors } from '@mui/material';
 import { useNavigate } from 'react-router-dom'
+import './HomePage.css'
 
 export default function HomePage() {
 
@@ -23,14 +24,19 @@ export default function HomePage() {
     navigate('slytherin');
   }
  
+
   return (
     <>
-    <ButtonGroup size="large" variant="text" aria-label="text button group">
-        <Button onClick={navigateGryffindor}>Gryffindor</Button>
-        <Button onClick={navigateHufflepuff}>Hufflepuff</Button>
-        <Button onClick={navigateRavenclaw}>Ravenclaww</Button>
-        <Button onClick={navigateSlytherin}>Slytherin</Button>
-    </ButtonGroup>
+    <header>
+      <p>Harry Potter</p>
+    </header>
+    
+      <div className='grp-btn'>
+        <button onClick={navigateGryffindor}>Gryffindor</button>
+        <button onClick={navigateHufflepuff}>Hufflepuff</button>
+        <button onClick={navigateRavenclaw}>Ravenclaw</button>
+        <button onClick={navigateSlytherin}>Slytherin</button>
+      </div>
     </>
   )
 }
