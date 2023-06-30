@@ -1,7 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ysabeau+SC:wght@100&display=swap');
+
 .photo-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     text-align: center;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.students-container{
+    width: 250px;
+    min-height: 250px;
+    background: rgba(238, 233, 233, 0.065);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 1rem;
+    padding: 1px;
+    z-index: 10;
+    color: whitesmoke;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+
+    font-family: 'Ysabeau SC', sans-serif;
+
+
+}
+
+img{
+    width: 200px;
+    border-radius: 8%;
 }

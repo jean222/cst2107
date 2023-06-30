@@ -17,6 +17,7 @@ export default function Gryffindor() {
   }
 
   return (
+    
     <GryffindorContext.Provider value={gryffindorData}>
       <GryffProfileList />
     </GryffindorContext.Provider>

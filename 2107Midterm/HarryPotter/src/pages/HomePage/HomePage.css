@@ -11,9 +11,6 @@ body {
     background-attachment: fixed; 
     background-size: cover;
 }
-.button-group{
-    size: large;
-}
 
 header{
     font-family: 'Harry Potter', sans-serif;                                     
@@ -21,13 +18,16 @@ header{
 
 .grp-btn{
     padding-top: 200px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     gap: 20px;
+    position: relative;
+    margin: 8px 8px 8px 8px;
     
 }
 
 button{
+    margin: 8px;
     font-size: 25px;
     font-family: 'Ysabeau SC', sans-serif;
     background-color: transparent;
@@ -39,4 +39,12 @@ button:hover{
     color: white;
     cursor: pointer;
     transform: scale(1.25);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+/* @media all and (max-width:30em){
+    button{
+        display: block;
+        margin: 0.4em auto;
+    }
+} */
