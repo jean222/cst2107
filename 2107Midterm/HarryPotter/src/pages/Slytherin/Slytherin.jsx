@@ -4,6 +4,8 @@ import SlythpProfileList from '../../components/SlytherinProifle/SlythpProfileLi
 
 export default function Slytherin() {
 
+  const [slytherinData, setSlytherinData] = useState([]);
+
   useEffect(() => {
     getSlytherinHouse();
   }, [])
@@ -11,11 +13,12 @@ export default function Slytherin() {
   const getSlytherinHouse = async() => {
     const slythHouseData = await fetch (`https://hp-api.onrender.com/api/characters/house/slytherin`);
     const slythHouseJSONData = await slythHouseData.json();
-    console.log(slythHouseJSONData);
+    //console.log(slythHouseJSONData);
+    setSlytherinData(slythHouseJSONData);
   }
   return (
     // <div>Slytherin</div>
-    <SlytherinContext.Provider>
+    <SlytherinContext.Provider value={slytherinData}>
       <SlythpProfileList />
     </SlytherinContext.Provider>
   )
