@@ -5,7 +5,7 @@ import ProfileList from '../../components/ProfileList'
 export default function Ravenclaw() {
 
   useEffect(() => {
-    getRavenclawHouse
+    getRavenclawHouse();
   }, [])
 
   const getRavenclawHouse = async () => {
