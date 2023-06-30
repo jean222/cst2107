@@ -1,11 +1,25 @@
 import './App.css'
-import HomePage from './pages/HomePage/HomePage'
+import { useRoutes } from 'react-router-dom'
+import HomePage from './pages/HomePage/HomePage';
+import NotFoundPage from './pages/NotFoundPage';
+import PlayersPage from './pages/PlayersPage/PlayersPage';
 
 function App() {
-  return ( <div>
-    <HomePage />
-  </div>
-  ) 
+  let element = useRoutes([
+    {
+      path: '/',
+      element: <HomePage />
+    },
+    {
+      path: '/',
+      element: <PlayersPage /> 
+    },
+    {
+      path: '*',
+      element: <NotFoundPage />
+    }
+  ])
+  return element;
 }
 
 export default App

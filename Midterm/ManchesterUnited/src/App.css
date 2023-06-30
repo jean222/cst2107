@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body, html{
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1555862124-94036092ab14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,10 +1,15 @@
+import StandingsPage from '../StandingsPage/StandingsPage';
 import './HomePage.css';
 
 function HomePage() {
-    return(<div>
+    return(<>
         {/* <Header /> */}
-        <h1>Manchester United</h1>
-    </div>
+        
+        <header>
+            <p><b>MANCHESTER UNITED</b></p>
+        </header>
+        <StandingsPage/>
+    </>
 
     )
 }
