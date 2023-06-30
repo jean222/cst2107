@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import SlytherinContext from '../../context/SlytherinContext'
 import SlythpProfileList from '../../components/SlytherinProifle/SlythpProfileList';
 
 export default function Slytherin() {
 
-  const [slytherinData, setSlytherinData] = useState([]);
+  const [slytherinData, setSlytherinData] = useState([])
 
   useEffect(() => {
     getSlytherinHouse();
