@@ -20,14 +20,14 @@ export default function FlagCardComponent({ data }) {
     //   }
     return (
       <Container>
-        <Grid container spacing={2}>
+        <Grid container spacing={3}>
           {
             data.map((flagInfo, z) => (
               <Grid item xs={3} key={z} >
-                <Paper elevation={16}>
+                <Paper elevation={16} style={{height: '250px', background: 'transparent'}}>
                   <Typography align='center'>
                     <br />
-                    <img src={flagInfo.flags.png} width={180}/>
+                    <img src={flagInfo.flags.png} width={170}/>
                     <br />
                     <span>{flagInfo.name.common}</span>
                   </Typography>
