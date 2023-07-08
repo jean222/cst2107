@@ -1,5 +1,6 @@
-import { Box, Container, Grid, Paper, Typography } from '@mui/material';
+import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,14 +25,26 @@ export default function FlagCardComponent({ data }) {
           {
             data.map((flagInfo, z) => (
               <Grid item xs={3} key={z} >
-                <Paper elevation={16} style={{height: '250px', background: 'transparent'}}>
-                  <Typography align='center'>
-                    <br />
-                    <img src={flagInfo.flags.png} width={170}/>
+
+                <Paper elevation={16} style={{height: '250px'}}>
+
+                  <Typography align='center' sx={{mx:1, py: 1}}>
+                    
+                    <img src={flagInfo.flags.png} width={'100%'} height={120}/>
                     <br />
                     <span>{flagInfo.name.common}</span>
                   </Typography>
+
+                  <br />
+
+                  <Box textAlign={'center'}>
+                    <Button LinkComponent={Link} to='/flag' variant='contained' 
+                      style={{maxHeight:20}}>Learn more</Button>
+                  </Box>
+
+                  
                 </Paper>
+
               </Grid>
             ))
           }

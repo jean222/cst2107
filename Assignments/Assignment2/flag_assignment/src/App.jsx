@@ -5,6 +5,7 @@ import FlagDetailPage from './pages/FlagDetailPage'
 import HomePage from './pages/HomePage'
 import NotFoundPage from './pages/NotFoundPage'
 
+
 function App() {
   // This how you can go from page to page 
   let element = useRoutes([
