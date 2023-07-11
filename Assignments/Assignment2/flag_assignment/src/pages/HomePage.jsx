@@ -4,7 +4,7 @@ import FlagContainerComponent from '../components/FlagContainerComponent'
 export default function HomePage() {
   return (
     <div>
-        <FlagContainerComponent />
+      <FlagContainerComponent />
     </div>
   )
 }
