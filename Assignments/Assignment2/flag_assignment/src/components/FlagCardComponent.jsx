@@ -1,6 +1,7 @@
 import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
+import '../App.css'
 
 
 
@@ -26,7 +27,7 @@ export default function FlagCardComponent({ data }) {
             data.map((flagInfo, z) => (
               <Grid item xs={3} key={z} >
 
-                <Paper elevation={16} style={{height: '250px'}}>
+                <Paper className='blueishPaper' elevation={24} style={{height: '250px'}} >
 
                   <Typography align='center' sx={{mx:1, py: 1}}>
                     
