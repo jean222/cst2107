@@ -15,7 +15,7 @@ function App() {
       element: <HomePage />
     },
     {
-      path: '/flag',
+      path: '/flag/:country',
       element: <FlagDetailPage />
     },
     {
