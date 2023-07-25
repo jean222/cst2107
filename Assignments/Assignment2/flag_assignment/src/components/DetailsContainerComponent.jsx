@@ -28,3 +28,11 @@
 //     </div>
 //   )
 // }
+
+import React from 'react'
+
+export default function DetailsContainerComponent() {
+  return (
+    <div>DetailsContainerComponent</div>
+  )
+}

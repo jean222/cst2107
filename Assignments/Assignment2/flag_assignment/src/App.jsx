@@ -4,7 +4,6 @@ import './App.css'
 import FlagDetailPage from './pages/FlagDetailPage'
 import HomePage from './pages/HomePage'
 import NotFoundPage from './pages/NotFoundPage'
-import HeaderComponent from './components/Header/HeaderComponent'
 
 
 function App() {
