@@ -16,16 +16,9 @@ export default function FlagContainerComponent() {
         setFlagData(convertedJSONData); 
     }
 
-
   return (
-    
     <div>
         {
-            // flagData.map((flagInfo, i) => {
-            //     return< li key={i}>{flagInfo.flag} {flagInfo.name.common}</li>
-            // })
-        
-
             <FlagCardComponent data={flagData}/>
         }
     </div>

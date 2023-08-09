@@ -3,9 +3,6 @@ import { createTheme } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
 import '../App.css'
 
-
-
-
 export default function FlagCardComponent({ data }) {
   return (
     <Container>
@@ -14,7 +11,7 @@ export default function FlagCardComponent({ data }) {
           data.map((flagInfo, z) => (
             <Grid item xs={3} key={z} >
 
-              <Paper className='blueishPaper' elevation={24} style={{height: '250px'}} >
+              <Paper elevation={24} style={{height: '250px'}} >
 
                 <Typography align='center' sx={{mx:1, py: 1}}>
                     
@@ -26,8 +23,9 @@ export default function FlagCardComponent({ data }) {
                 <br />
 
                 <Box textAlign={'center'}>
-                  <Button LinkComponent={Link} to={`/flag/${flagInfo.name.common}`} variant='contained' 
+                  <Button LinkComponent={Link} to={`/name/${flagInfo.name.common}`} variant='contained' 
                     style={{maxHeight:20}}>Learn more</Button>
+
                 </Box>
 
                   

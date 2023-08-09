@@ -1,52 +1,55 @@
-// import DetailCardComponent from '../components/DetailCardComponent';
-// import DetailsContainerComponent from '../components/DetailsContainerComponent'
-
-
-// const FlagDetailPage = () => {
-//   return(
-//     <div>
-//       <DetailsContainerComponent />
-//     </div>
-//   )
-
-// }
-// export default FlagDetailPage;
-
-
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Card, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Card, CardContent, CardMedia, Typography,Paper, Grid } from '@mui/material'
+import '../App.css'
 
 const FlagDetailPage = () => {
   const { country } = useParams();
-  const [flagData, setFlagData] = useState([{}])
+  const [flagData, setFlagData] = useState([])
 
   useEffect(() => {
-    getFlagDataByName
+    getFlagDataByName()
   }, [country]);
 
+  useEffect(() => {
+    if (flagData) {
+      console.log('data flags', flagData)
+    }
+  }, [flagData])
+  const auth = undefined;
+
   const getFlagDataByName = async () => {
-    const data = await fetch(`https://restcountries.com/v3.1/all/${country}/`)
+    const data = await fetch(`https://restcountries.com/v3.1/name/${country}`)
     const convertedJSONData = await data.json();
     console.log(convertedJSONData, "data")
-    setFlagData(convertedJSONData); 
+    setFlagData(convertedJSONData[0]); 
 }
-  return <Card sx={{maxWidth: 345 }}>
-    <CardMedia 
-      component={'img'}
-      alt='do alt from the api'
-      height={'140'}
-      image={`flagData.flags.svg`}
-      />
+  
+return <div align="center">
+  <Box justifyContent={'space-around'} width={'500px'} >
+      <img src={flagData.flags?.svg} width={450} />
 
-      <CardContent>
-        <Typography gutterBottom variant='h1'>
-          {flagData.name.common}
-        </Typography>
+      <Typography gutterBottom variant='h4'>
+        {flagData.name?.common}
+      </Typography>
+      <Typography>
+        <b>Official Name: </b> {flagData.name?.official}
+      </Typography>
 
-      </CardContent>
+      <Typography>
+        {flagData.continents}
+      </Typography>
 
-  </Card>
+      <span>
+        <br></br>
+      </span>
+
+      <Typography>
+        <b>About the flag:</b> {flagData.flags?.alt}
+      </Typography>
+      
+  </Box>
+</div>
+
 }
-
 export default FlagDetailPage;
